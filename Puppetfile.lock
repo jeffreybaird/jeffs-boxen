@@ -29,11 +29,6 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-mysql
-  specs:
-    mysql (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.0.0)
@@ -76,7 +71,6 @@ DEPENDENCIES
   homebrew (= 1.0.0)
   hub (= 1.0.0)
   inifile (= 0.9.0)
-  mysql (= 1.0.0)
   nginx (= 1.0.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)

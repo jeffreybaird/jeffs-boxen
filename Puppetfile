@@ -36,6 +36,3 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-
-github "mysql",    "1.0.0"
-github "redis",    "1.0.0"
