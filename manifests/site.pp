@@ -56,6 +56,7 @@ node default {
   include nginx
   include nvm
   include ruby
+  include mysql
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -89,6 +90,6 @@ node default {
 
 # databases
 
-include mysql
+#  include mysql
 
 mysql::db { 'mydb': }
