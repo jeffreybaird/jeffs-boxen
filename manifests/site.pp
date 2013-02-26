@@ -57,6 +57,7 @@ node default {
   include nvm
   include ruby
 
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
@@ -71,6 +72,7 @@ node default {
   include ruby::1-8-7
   include ruby::1-9-2
   include ruby::1-9-3
+  include ruby::1-9-3-p194
 
   # common, useful packages
   package {
@@ -85,4 +87,14 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # databases
+
+  include redis
+  include mysql
+  mysql::db { 'mydb': }
+
+  #testing
+
+  include phantomjs
 }
