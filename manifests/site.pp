@@ -86,3 +86,9 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+# databases
+
+include mysql
+
+mysql::db { 'mydb': }
