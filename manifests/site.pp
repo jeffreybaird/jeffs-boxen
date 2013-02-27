@@ -92,9 +92,12 @@ node default {
 
   include redis
   include mysql
-  mysql::db { 'mydb': }
 
   #testing
 
   include phantomjs
+
+  # PDFs
+
+  include wkhtmltopdf
 }
