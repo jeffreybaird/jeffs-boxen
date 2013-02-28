@@ -93,4 +93,8 @@ node default {
 
   # Testing
   include phantomjs
+
+  #projects
+
+  include projects::monitor
 }
