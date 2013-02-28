@@ -90,6 +90,7 @@ node default {
   # Databases
   include mysql
   include redis
+  mysql::db { 'wellapps_import': }
 
   # Testing
   include phantomjs
