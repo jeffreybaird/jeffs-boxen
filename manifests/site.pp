@@ -97,4 +97,5 @@ node default {
   #projects
 
   include projects::monitor
+  include projects::mdr
 }
