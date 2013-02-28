@@ -1,12 +1,37 @@
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-colloquy
+  specs:
+    colloquy (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -64,9 +89,34 @@ GITHUBTARBALL
     ruby (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sparrow
+  specs:
+    sparrow (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-textmate
+  specs:
+    textmate (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-wkhtmltopdf
@@ -84,8 +134,13 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
+  alfred (= 1.0.0)
   boxen (= 1.0.2)
+  caffeine (= 1.0.0)
+  chrome (= 1.0.0)
+  colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
   homebrew (= 1.0.0)
@@ -98,7 +153,12 @@ DEPENDENCIES
   phantomjs (= 1.0.0)
   redis (= 1.0.0)
   ruby (= 1.0.0)
+  skype (= 1.0.0)
+  sparrow (= 1.0.0)
+  spotify (= 1.0.0)
   stdlib (= 3.0.0)
+  sublime_text_2 (= 1.0.0)
   sudo (= 1.0.0)
+  textmate (= 1.0.0)
   wkhtmltopdf (= 1.0.0)
 
