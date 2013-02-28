@@ -71,6 +71,7 @@ node default {
   include ruby::1-8-7
   include ruby::1-9-2
   include ruby::1-9-3
+  include ruby::1-9-3-p194
 
   # common, useful packages
   package {
@@ -85,4 +86,11 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # Databases
+  include mysql
+  include redis
+
+  # Testing
+  include phantomjs
 }
