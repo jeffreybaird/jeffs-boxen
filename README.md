@@ -1,3 +1,4 @@
+
 # Our Boxen
 
 This is a template Boxen project designed for your organization to fork and
@@ -202,6 +203,8 @@ will be working in).
 We support binary packaging for everything in Homebrew, RBEnv, and NVM.
 See `config/boxen.rb` for the environment variables to define.
 
+
 ## Halp!
 
 Use Issues or #boxen on irc.freenode.net.
+
