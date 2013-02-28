@@ -88,16 +88,22 @@ node default {
     target => $boxen::config::repodir
   }
 
-  # databases
 
-  include redis
+  # Databases
   include mysql
+  include redis
+  mysql::db { 'wellapps_import': }
 
-  #testing
-
+  # Testing
   include phantomjs
+
+  #projects
+
+  include projects::monitor
+  include projects::mdr
 
   # PDFs
 
   include wkhtmltopdf
+
 }
