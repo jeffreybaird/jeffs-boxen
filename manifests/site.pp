@@ -105,7 +105,5 @@ node default {
   # PDFs
 
   include wkhtmltopdf
-  include xquartz
-  include imagemagick
 
 }
