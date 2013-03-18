@@ -6,13 +6,5 @@ class people::MrPowers {
   include alfred
   include colloquy
   include dropbox
-
-  $home     = "/Users/${::luser}"
-  $my       = "${home}/my"
-  $dotfiles = "${my}/dotfiles"
-
-  repository { $dotfiles:
-    source  => 'MrPowers/dotfiles',
-    require => File[$my]
   }
 }
