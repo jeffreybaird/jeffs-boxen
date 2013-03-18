@@ -53,5 +53,4 @@ github "dropbox", "1.0.0"
 github "alfred", "1.0.0"
 github "colloquy", "1.0.0"
 github "macvim", "1.0.0"
-github "firefox", "1.0.0"
 
