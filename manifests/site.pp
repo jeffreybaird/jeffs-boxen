@@ -101,6 +101,8 @@ node default {
 
   include projects::monitor
   include projects::mdr
+  include projects::orderly
+  include projects::allocator
 
   # PDFs
 
