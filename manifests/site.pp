@@ -87,7 +87,11 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
-
+ # Dependancies
+  include autoconf
+  include libtool
+  include xquartz
+  include ghostscript
 
   # Databases
   include mysql
@@ -100,6 +104,7 @@ node default {
   #projects
 
   include projects::monitor
+  include projects::labs_module
   include projects::mdr
   include projects::orderly
   include projects::allocator

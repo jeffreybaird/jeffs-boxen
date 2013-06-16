@@ -53,4 +53,9 @@ github "dropbox", "1.0.0"
 github "alfred", "1.0.0"
 github "colloquy", "1.0.0"
 github "macvim", "1.0.0"
+github "autoconf","1.0.0"
+github "libtool", "1.0.0"
+github "xquartz", "1.0.0"
+github "ghostscript", "1.0.0"
+
 
