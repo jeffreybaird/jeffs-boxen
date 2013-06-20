@@ -103,12 +103,6 @@ node default {
 
   #projects
 
-  include projects::monitor
-  include projects::labs_module
-  include projects::mdr
-  include projects::orderly
-  include projects::allocator
-
   # PDFs
 
   include wkhtmltopdf
