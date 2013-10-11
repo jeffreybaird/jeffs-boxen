@@ -57,5 +57,6 @@ github "autoconf","1.0.0"
 github "libtool", "1.0.0"
 github "xquartz", "1.0.0"
 github "ghostscript", "1.0.0"
+github "emacs", "1.0.0"
 
 

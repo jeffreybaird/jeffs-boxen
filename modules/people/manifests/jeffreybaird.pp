@@ -9,4 +9,5 @@ class people::jeffreybaird {
   include dropbox
   include sparrow # requires sparrow module in Puppetfile
   include macvim
+  include emacs
 }

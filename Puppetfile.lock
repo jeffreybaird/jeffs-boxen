@@ -39,6 +39,11 @@ GITHUBTARBALL
     dropbox (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (1.0.0)
@@ -167,6 +172,7 @@ DEPENDENCIES
   colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.0.0)
+  emacs (= 1.0.0)
   gcc (= 1.0.0)
   ghostscript (= 1.0.0)
   git (= 1.0.0)

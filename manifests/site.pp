@@ -92,6 +92,7 @@ node default {
   include libtool
   include xquartz
   include ghostscript
+  include emacs
 
   # Databases
   include mysql
